@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>German IT Solutions</title>
+	<link href="../frontend/css/bootstrap.css" rel="stylesheet">
+	<link href="../frontend/css/custom.css" rel="stylesheet">
+  <link href="../frontend/css/owl.carousel.css" rel="stylesheet">
+  <script src="../frontend/js/bootstrap.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../frontend/js/jquery.min.js"></script>
+  <script src="../frontend/js/owl.carousel.js"></script>
+  <script>
+
+    $(document).ready(function(){
+      $(".headings").click(function(){
+        $("p").toggle();
+      });
+      $(".head_in").click(function(){
+        $(".recent_works").fadeToggle(1000);
+      });
+      $("#nav_btn").click(function(){
+        $(".nav_options").fadeToggle(500); 
+      });
+      $("#theme_btn").click(function(){
+
+       $(".header").toggleClass("green");
+       $(".lower_body").toggleClass("green");
+       $(".head_btn").toggleClass("green");
+       $("body").toggleClass("green");
+
+      
+     });
+
+      $('.contact_btn').click(function(){
+       $('.inside').toggle();
+
+     });
+    });
+  </script>
+
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-5 main_heading">
+          <h2> German IT Solutions </h2> 
+          <label class="label_head"> On-Time Reliable Quality!</label>
+
+          <img src="../frontend/images/label.png">
+          <button id="nav_btn"> Hide/Show navbar</button>
+        </div>
+        <div class="col-md-6 col-sm-7 nav_options dropdown">
+          <button  type="button" class="head_btn dropdown-toggle" data-toggle="dropdown">HOME
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+          </ul>
+          <button  type="button" class="head_btn" >SERVICES
+          </button>
+
+          <button  type="button" class="head_btn" >PORTOFOLIA
+          </button>
+
+          <button  type="button" class="head_btn contact_btn">CONTACT US
+          </button>
+          <button  type="button" id="theme_btn" class="head_btn">CHANGE THEME
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <div class="body_slider">
+
+
+    <div id="owl-demo" class="owl-carousel owl-theme">
+
+      <div class="item"><img src="../frontend/images/1.jpg" alt="The Last of us" /></div>
+      <div class="item"><img src="../frontend/images/2.jpg" alt="GTA V" /></div>
+      <div class="item"><img src="../frontend/images/3.jpg" alt="Mirror Edge" /></div>
+
+    </div>
+
+  </div>
+
+<div class="lower_body">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-12 col-sm-12 ">
+        <h2> German IT Solutions: Make Most with our paramount IT services </h2>
+      </div>
+
+    </div>
+    <div class="row ">
+      <div class="col-md-4 col-xl-4 ">
+        <img id="logo" src="../frontend/images/logo1.png">
+        <h3 class="headings">DIGITAL CONSULTING</h3>
+        <p class="paragraph"> We design everything from Web Design to Print Design and we also have the mastery to create complete corporate designs </p>
+
+
+      </div>
+      <div class="col-md-4 col-xl-4 ">
+        <img id="logo" src="../frontend/images/logo2.png">
+        <h3 class="headings">DEVELOPMENT</h3>
+        <p class="paragraph"> It doesn’t matter if you need a Website, Online Shop or a completely customized website, we are your right partner.</p>
+      </div>
+      <div class="col-md-4 col-xl-4 ">
+        <img id="logo" src="../frontend/images/logo3.png">
+        <h3 class="headings">DIGITAL MARKETING</h3>
+        <p class="paragraph"> We promote your business with our supreme online marketing through Search Engine Optimization, AdWords, Facebook Marketing & Co </p>
+      </div>
+
+    </div>
+    <div class="row ">
+      <div class="col-md-12 col-sm-8 col-lg-12 head_points">
+        <h3 class="head_in"> GERMAN IT SOLUTIONS </h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <ul class="recent_works">
+          <li> German IT Solutions (PVT) Ltd. has a global identity with over 25 years of experience in IT industry</li>
+          <li> We have a wide range of IT competencies.</li>
+          <li>Our company delivers high quality web designs that can attract the visitors to your website</li>
+          <li>We cover broad-spectrum web development options.</li>
+          <li>German IT Solutions (PVT) Ltd. feeds with extensive support in online marketing</li>
+          <li>We as an IT company provide technical efficiency in the development of mobile apps</li>
+          <li>We offer quality based web hosting services.</li>
+          <li>Our IT team has successfully dealt with 500 IT Projects.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row info_div">
+  <div class="col-md-4 col-sm-4">
+
+  </div>
+  <div class="col-md-4 col-sm-4">
+    <ul> RECENT WORKS</ul>
+    <li>10 Web Design Trends 2014 To Watch Out For</li>
+    <li>Mobile Application Development: Changing Face of the World</li>
+    <li>The 5 Best Web Design Services Which You Must Know!</li>
+    <li>7 Things You Need To Know About Online Marketing</li>
+    <li>Ecommerce: How Colors Have An Impact On Your Purchases</li>
+    <li>The Do’s And The Don’ts Of SEO Content Writing</li>
+
+  </div>
+  <div class="col-md-4 col-sm-4">
+    fnsanfbnsbfsab
+  </div>
+</div>
+
+
+
+
+
+</body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+ 
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      items : 1, 
+      itemsDesktop : true,
+      itemsDesktopSmall : false,
+      itemsTablet: false,
+      itemsMobile : false
+ 
+  });
+ 
+});
+</script>
+
+
+</html>
