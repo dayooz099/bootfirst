@@ -4,7 +4,7 @@
 	background-color: white;
 	font-family:Artegra Sans Alt Thin;
 	}
-.header h2{
+.header h3{
 	margin-top:30px;
 	margin-bottom:0;
 }
@@ -17,6 +17,9 @@
 }*/
 
 /* shahzaib here .... */
+.labels_jaidi{
+	margin-right: 0
+}
 
 .labelsme{
 	padding: 0;
